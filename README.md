@@ -1,4 +1,3 @@
-# Ex-07-Feature-Selection
 # AIM
 To Perform the various feature selection techniques on a dataset and save the data to a file.
 
@@ -191,30 +190,26 @@ plt.show()
 ```
 # OUPUT
 ## DATA PREPROCESSING BEFORE FEATURE SELECTION:
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/51cba31b-3dce-432c-b083-9567388017c7)
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/433db3a7-92af-4ae7-8ccd-a98fb5301eb7)
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/683f0e10-0e53-43bf-90b3-5de937d21eab)
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/b5d7b818-811d-4a76-9139-3e1d9f584883)
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/d3663b49-2d19-46c1-8c56-e2c1e1a61665)
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/a7494d82-aa89-4a07-8c29-04aad9f74735)
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/086ad774-064c-42c8-ad5a-7971a34df080)
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/3b760a05-a2e7-4d7e-a18c-7976bea6967e)
-
-
+![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/437a44bb-5043-494b-a5e0-5c5a27c8f30d)
+![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/8e4db398-49e9-41f3-8670-085811845115)
+![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/99a180be-3d06-4667-a21d-86f15c52d888)
+![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/7a629f52-ab7c-4b64-a318-81135671ba25)
+![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/f6d130a8-c2b4-4034-8d34-8b7f47637a77)
+![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/a5c3f4dd-26ec-46a9-82cf-9ea7085e83ae)
+![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/7dde7b8f-2a26-4d4b-a13d-8b8b8beb7d17)
 
 
 ## FEATURE SELECTION:
-FILTER METHOD:
-The filtering here is done using correlation matrix and it is most commonly done using Pearson correlation.
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/8b4db2e3-d8c2-43a5-838f-b54bcf2a5cbb)
-
+## FILTER METHOD:
+The filtering here is done using correlation matrix and it is most commonly done using Pearson correlation. 
+![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/8cb2aa14-db50-4809-a027-9fe3573fca7d)
 
 HIGHLY CORRELATED FEATURES WITH THE OUTPUT VARIABLE SURVIVED: 
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/2a2258ae-3fb3-4953-8386-335d38a6a227)
+![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/b8f8872c-c0c2-47bb-9aa6-fcc8381ee0f8)
 
 
 ## HIGHLY CORRELATED FEATURES WITH THE OUTPUT VARIABLE SURVIVED:
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/56ea10f9-cef2-4b23-b8ff-2913bba83232)
+![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/d3db6466-11af-4497-a0a6-3994aec0265c)
 
 
 ## WRAPPER METHOD:
@@ -223,25 +218,26 @@ Wrapper Method is an iterative and computationally expensive process but it is m
 There are different wrapper methods such as Backward Elimination, Forward Selection, Bidirectional Elimination and RFE.
 
 ## BACKWARD ELIMINATION:
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/bcbaadf6-b644-4dbf-bce4-c9d4d26d1c05)
+![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/9ba00660-756a-40a3-80d9-33fd6eccc179)
 
 
 ## RFE (RECURSIVE FEATURE ELIMINATION):
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/93fefc43-b52d-4164-8446-72a56de9d98d)
+![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/1e7df591-c29f-4570-8fa3-64c051050432)
 
 
 ## OPTIMUM NUMBER OF FEATURES THAT HAVE HIGH ACCURACY:
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/583756ec-a149-4df4-aaf7-f566be82fa4e)
+![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/1e933ee4-11f1-48b4-bcd5-77b202a67526)
 
 
 ## FINAL SET OF FEATURE:
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/f1a5cbf0-bc0e-4b27-9994-85b2da79bea6)
-
+![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/c291c94b-00db-4df0-ab6f-64ee8c6dbe7b)
 
 ## EMBEDDED METHOD:
 Embedded methods are iterative in a sense that takes care of each iteration of the model training process and carefully extract those features which contribute the most to the training for a particular iteration. Regularization methods are the most commonly used embedded methods which penalize a feature given a coefficient threshold. 
-![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/1174177c-4f79-447e-8856-54ce144ae198)
+![image](https://github.com/yuvabharathib/Ex-07-Feature-Selection/assets/113497404/9528da03-b8c9-4ac5-ab63-ed880857cbe2)
 
 
 # RESULT:
 Thus, the various feature selection techniques have been performed on a given dataset successfully.
+
+
